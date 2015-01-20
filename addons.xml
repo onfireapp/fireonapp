@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.fireon" name="fireon" version="0.0.1" provider-name="fireon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">fireon addon</summary>
+    <description lang="en"></description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="repository.fireonapp" name="fireonapp Repo" version="0.0.1" provider-name="fireon">
+        <extension point="xbmc.addon.repository" name="fireonapp fingertip Repo">
+                <info compressed="false">https://raw.githubusercontent.com/onfireapp/fireonapp/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/onfireapp/fireonapp/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/onfireapp/fireonapp/master/repo</datadir>
+				<hashes>true</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>fireonapp</summary>
+                <description>fireonapp</description>
+                <disclaimer>fireonapp</disclaimer>
+                <platform>all</platform>
+                <website></website>
+        </extension>
+</addon>
+</addons>
